@@ -1,0 +1,1120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.companylogo {
+  height: 44px;
+  /* http://localhost:3000/ */
+}
+
+.close {
+
+  color: white;
+  align-items: center;
+  width: 20px;
+  height: 30px;
+
+}
+
+.SignUpButton {
+  color: white;
+  text-decoration: none;
+  padding-top: 4px;
+  background-color: blue;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.signin {
+  padding-right: 10px;
+}
+
+.close :hover {
+  cursor: pointer;
+
+
+}
+
+li {
+  padding-right: 4%;
+
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.dataholder {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  width: 100%;
+
+}
+
+.Navigationmenu {
+  opacity: 0;
+  visibility: hidden;
+  left: -110%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  transition: all ease-in-out 0.4s
+}
+
+.Navigationmenu.active {
+
+  opacity: 1;
+  visibility: visible;
+  left: 0%;
+
+
+}
+
+.menu {
+  padding-top: 20px;
+
+}
+
+
+.salutation {
+  padding-right: 28%;
+}
+
+.form-check {
+  padding-right: 4%;
+}
+
+.inputfield {
+  position: relative;
+  padding-top: 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.inputfield1 {
+  padding-top: 36px;
+}
+
+.inputfield2 {
+  padding-top: 20px;
+}
+
+.inputfield3 {
+  padding-top: 10px;
+}
+
+.inputfield4 {
+  padding-top: 18px;
+}
+
+.form-fields {
+  display: block;
+  width: 100%;
+  padding: 0.375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: RGB(206, 207, 217);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.Message-fields {
+  display: block;
+  width: 100%;
+  padding: 5.375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: RGB(206, 207, 217);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+
+
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.message {
+  position: relative;
+  bottom: 180px;
+  left: 14px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: RGB(206, 207, 217);
+  border: 1px solid #ced4da;
+  background-color: transparent;
+}
+
+.submitbuttoncontainer {
+  display: flex;
+  justify-content: end;
+  margin-top: 18px;
+
+}
+
+.submitbutton {
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+}
+
+.submitbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.namevalidationame {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: red;
+}
+
+.messagevalidation {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+
+  font-size: 12px;
+  color: red;
+}
+
+
+.banersection {
+  max-width: 100%;
+}
+
+.burgericon {
+  height: 30px;
+  width: 22px;
+  /* align-items: center; */
+  cursor: pointer;
+}
+
+.headerbox {
+  margin: 0px 10px 0px 10px;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.findbuggati {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+.findbuggati li {
+  font-size: 16px;
+  padding-right: 20px;
+  font-weight: 400;
+
+
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+.intoduction {
+  position: relative;
+  background-image: url(./../src/assests/backgroud.jpg);
+  height: 633px;
+}
+
+.red {
+  color: red;
+}
+
+.bg-red {
+  background: red;
+
+}
+
+
+
+.discover {
+  text-decoration: none;
+
+  padding: 18px 40px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 4;
+}
+
+.specs {
+  max-width: 100%;
+  background-color: #383838;
+}
+
+.specdetails {
+  color: white;
+  font-size: 11px;
+
+}
+
+.heading-container {
+
+
+  padding: 85px 30px 0px 128px;
+}
+
+.headingtxt {
+  width: 80%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 66px;
+  padding-bottom: 34px;
+}
+
+.discover:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 570px;
+}
+
+.models {
+  max-width: 100%;
+}
+
+.modelheading {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.mistral {
+
+  background-image: url(./../src/assests/w16.jpg);
+
+}
+
+.modelbg {
+  position: relative;
+  height: 638px;
+  background-repeat: no-repeat;
+
+  background-position: center center;
+  background-size: contain;
+}
+
+.newsbg {
+
+  height: 326px;
+
+}
+
+.modeltext {
+  position: absolute;
+  z-index: 999;
+  background-color: black;
+  color: #fff;
+  bottom: -10px;
+  font-size: 14px;
+  font-weight: 400;
+  left: 28px
+}
+
+.modelsubholder {
+  padding-top: 100px;
+}
+
+.buggativersertxt {
+  position: absolute;
+  z-index: 999;
+  background-color: black;
+  color: #fff;
+  bottom: -10px;
+  font-size: 14px;
+  font-weight: 400;
+  left: 28px;
+  /* opacity: .2; */
+}
+
+.buggatiuniverse {
+  padding-bottom: 50px;
+}
+
+.newsectionimage {
+  background-image: url(../src/assests/news.jpg);
+}
+
+.oneoffmodels {
+
+  background-image: url(./../src/assests/oneof.jpg);
+
+}
+
+.chiron {
+  background-image: url(./../src/assests/chiron.jpg);
+}
+
+.concept {
+  background-image: url(./../src//assests/concept.jpg);
+}
+
+.model-main-container {
+  width: 100%;
+}
+
+.modelsdescrptionsection {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.model-container {
+  width: 100%;
+  padding-top: 20px;
+
+
+}
+
+header h2 {
+  font-size: 56px;
+  line-height: 56px;
+
+}
+
+.outercontainer {
+  padding: 50px 50px 50px 50px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* footerccs start */
+
+.footer {
+  background-color: black;
+}
+.weatherwidget{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.companydetails{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.weatherdetails{
+  width: 55%;
+  display: flex;
+ justify-content: end;
+}
+.citydetails{
+  display: flex;
+  width: 22%;
+  color: white;
+  font-size: 11px;
+  justify-content: center;
+}
+.citydetail{
+  width: 100%;
+  color: white;
+  font-size: 11px;
+}
+.weatherdetailsdisplay{
+  width: 22%;
+  color: white;
+  padding-left: 2%;
+}
+
+/* footerccs end*/
+.sociallist {
+  display: flex;
+  justify-content: center;
+}
+
+.sociallist li {
+  padding-right: 30px;
+}
+
+.footertxt {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.pagelist li {
+  color: #fff;
+  font-size: 11px;
+  padding-right: 36px;
+}
+
+.pagelist ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.Buggati {
+  padding-top: 100px;
+}
+
+.lifestyile {
+
+  background-image: url(../src/assests/lifestyle.jpg);
+}
+
+.FABP {
+  background-image: url(../src/assests/FABP.jpg);
+}
+
+.carrer {
+  background-image: url(../src/assests/career.jpg);
+}
+
+.buggatimodel {
+  background-image: url(../src/assests/buggatimodel.jpg);
+}
+
+.buggatidivo {
+  background-image: url(../src/assests/divo.jpg);
+}
+
+.cento {
+  background-image: url(../src/assests/centodieci.jpg);
+}
+
+.buggatiuniversebg {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  height: 420px;
+
+}
+
+.newsuniversebg {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  height: 285px;
+
+}
+
+.buggatimodeltxt {
+  margin-top: -20px;
+
+}
+
+.lego {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 4%;
+}
+
+/* .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+.MOLSHEIM {
+  padding-top: 1rem;
+  font-size: 12px;
+  padding-left: 16px;
+  margin-bottom: 0px;
+}
+
+.headtxt {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 6px;
+  padding-left: 4%;
+}
+
+.topressreleasebewsverse {
+  padding-left: 4%;
+}
+
+
+.MOLSHEIMheading {
+  font-size: 22px;
+  padding-bottom: 170px;
+  padding-left: 16px;
+}
+
+.topressrelease {
+  position: relative;
+
+  top: 29px;
+
+}
+
+.rightarrow {
+  position: relative;
+
+  top: 13px;
+
+  padding-left: 4%;
+}
+
+.rightarrownews {
+  position: relative;
+  top: -17px;
+  padding-left: 4%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/************** Popup css ****************/
+
+h6 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  /* border-bottom:  3px solid #f2f2f2;
+  border-top:  3px solid #f2f2f2; */
+  border-radius: 4px;
+}
+
+
+
+.finalsubmit:hover {
+  background-color: black;
+  color: white;
+}
+
+.finalsubmit {
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  margin-left: 8px;
+}
+
+.finalsubmitcontainer {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.4s;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.finalsubmitcontainer.active {
+  visibility: visible;
+}
+
+.maincanvas {
+  position: fixed;
+  top: -400px;
+  bottom: 0;
+  z-index: 999;
+  transition: all ease-in-out 0.4s;
+
+  margin: auto;
+
+  width: 100%;
+}
+
+
+
+.popup {
+  background-color: rgb(255, 249, 249);
+  max-width: 700px;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 17px;
+  margin: auto;
+}
+
+.Header {
+  width: 86%;
+  padding-left: 150px;
+  padding-top: 150px;
+  font-size: 32px;
+  font-weight: 600;
+  height: 100%;
+  padding-bottom: 150px;
+}
+
+.sucessfullsumission {
+  width: 50%;
+
+}
+
+.submitteddetails {
+
+  width: 50%;
+
+  left: 0;
+}
+
+.finalsubmitcontainer.active .maincanvas {
+  top: 20px;
+}
+
+.outercanvas {
+  background-color: #f7fcfc;
+}
+
+.dataname {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.labels {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.datalabel {
+
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #105154;
+  padding-left: 45px;
+  border-radius: 4px;
+  margin-right: 20px;
+  width: 50%;
+  margin-top: 4px;
+}
+
+
+
+.storedata {
+  width: 100%;
+
+
+}
+
+.storeddata {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.contactuslogo {
+  width: 282px;
+  height: 100%;
+
+
+  border-radius: 4px;
+
+
+}
+
+.image {
+  width: 50%;
+
+}
+
+.confirmation {
+  width: 50%;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 16px;
+}
+
+.popheader {
+  font-size: 23px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.d-flex.py-4 {
+  align-items: center;
+}
+
+.check {
+
+  height: 60px;
+  width: 50px;
+  margin-bottom: 12px;
+}
+
+.popdetails {
+  margin-bottom: 32px;
+}
+
+.returnhome {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background-color: #383838;
+  margin-right: 8px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.Enterdata {
+
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #105154;
+  padding-left: 15px;
+  border-radius: 4px;
+  margin-right: 20px;
+  width: 90%;
+  margin-top: 4px;
+}
+
+/************** Popup css End ****************/
+
+/************** Login form css start  ****************/
+
+.Loginbuttons {
+  color: white;
+  text-decoration: none;
+  padding-top: 4px;
+  background-color: red;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Loginoutbutton{
+  color: white;
+  text-decoration: none;
+  padding-top: 4px;
+  background-color: Grey;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.Loginform {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.4s;
+
+  z-index: 999;
+
+}
+
+.Loginform.active {
+  visibility: visible;
+}
+
+.logincanvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: all ease-in-out 0.4s;
+  background-color: rgba(196, 196, 196, 0.5);
+  left: 0;
+
+  width: 100%;
+}
+
+.login {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+
+}
+
+.loginpopup {
+  width: 460px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 50px;
+
+}
+
+.loginheader {
+  display: flex;
+  justify-content: center;
+}
+
+.loginheading {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.Loginfields {
+  width: 100%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.loginButton {
+
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #4e4e4e;
+  color: #f7fcfc;
+}
+
+.loginlabel {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.loginbody {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.forgetpw {
+  text-decoration: none;
+  color: black;
+  margin-top: 8px;
+  display: flex;
+  justify-content: end;
+}
+
+.forgetpw :hover {
+  color: blue;
+}
+
+.signupusing {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.secondarySignupoption {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+.socialmedialoginicon {
+  width: 60px;
+  height: 40px;
+
+}
+
+.defaultsignup {
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.defaultsignup :hover {
+  color: blue;
+}
+
+
+/************** Login form css  End ****************/
+/************** signUp form css  start****************/
+.signupsection{
+  background-image: url(../src/assests/731515.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+   background-color: #949494;
+  /* background-image: url(../src/assests/signupbgwhite.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  width: 60%;
+  border-radius: 8px;
+  height: 600px;
+  opacity: 0.9;
+}
+
+.signupintroduction {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  background-color: #fff;
+  /* background-image: url(../src/assests/signupbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  border-radius: 8px;
+  height: 600px;
+  margin: auto;
+  opacity: 0.5;
+}
+
+.welcome {
+  margin: auto;
+  text-align: center;
+}
+
+.welcomemnote {
+  margin-bottom: 12px;
+}
+
+.signupcontainer {
+  margin: auto;
+  width: 70%;
+}
+
+.signupfieds {
+  width: 100%;
+  margin-bottom: 16px;
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ background-color: none;
+ color: black;
+ border-radius: 4px;
+ height: 40px;
+ background-color: #fff;
+ border-radius: 8px;
+ padding-left: 10px;
+}
+.btn.btn-dark{
+  margin-top: 16px;
+}
+.signupnamevalidationame{
+  position: absolute
+;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  right: 0;
+  font-size: 12px;
+  color: red;
+}
+ body .react-date-picker__wrapper {
+  border: 0px ;
+}
+.PhoneInputInput{
+  border: 0px;
+}
+.loginclose{
+  position: relative;
+  top: -6px;
+  opacity: .8;
+  cursor: pointer;
+  
+}
+.react-date-picker__inputGroup__input{
+  min-width: 36px;
+  padding: 0px;
+}
+/************** signUp form css  start****************/
