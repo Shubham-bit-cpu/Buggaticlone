@@ -27,8 +27,8 @@ const Login = () => {
     //     }
 
     // });
-   
-    
+
+
     const cxLogin = () => {
         setLoginToggle(true);
 
@@ -37,6 +37,7 @@ const Login = () => {
         setLoginToggle(false);
     }
     const setuname = (e) => {
+        console.log(e);
         setusername(e.target.value)
         if (e.target.value != null)
             setusernamevalidation(false)

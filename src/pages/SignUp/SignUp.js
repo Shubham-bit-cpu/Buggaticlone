@@ -39,6 +39,7 @@ const SignUp = () => {
     const setFName = (e) => {
         setFirstName(e.target.value);
 
+        console.log(e.target.value);
         if (e.target.value != "") {
             setfirstNamevalidationerror(false);
         }

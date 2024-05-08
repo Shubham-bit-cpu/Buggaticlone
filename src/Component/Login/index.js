@@ -1,13 +1,13 @@
 import Header from "../../Component/Header/Header";
 import Footer from "../../Component/footer/footer";
 import Login from "../../Component/Login";
-const Login =()=>{
-    return(
+const Login = () => {
+    return (
         <>
-        <Header/>
-        
-        <Footer/>
+            <Header />
+
+            <Footer />
         </>
     )
 };
-export default  Login;
+export default Login;
